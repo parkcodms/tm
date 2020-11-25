@@ -52,7 +52,7 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Me: 'Me에 대한 설명을 적어볼까요?',
+      Airpot: '박채은이 엄마 몰래 질',
       None: 'None에 대한 설명을 적어볼까요?',
     };
 
