@@ -52,8 +52,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Airpot: '박채은이 엄마 몰래 질',
-      None: 'None에 대한 설명을 적어볼까요?',
+      Airpot: '박채은이 엄마 몰래 산 에어팟',
+      Eclipse: '매일 정연지한테 뺏기는 이클립스',
+
     };
 
     if (probability >= 75) {
