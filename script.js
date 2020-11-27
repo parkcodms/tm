@@ -53,7 +53,7 @@ async function predict() {
 
     const data = {
       Airpot: '박채은이 엄마 몰래 산 에어팟',
-      Eclipse: '매일 정연지한테 뺏기는 이클립스',
+      Eclipse: '매일 애들한테 나눔하는 이클립스 ',
 
     };
 
