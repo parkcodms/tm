@@ -52,10 +52,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Airpot: '박채은이 엄마 몰래 산 에어팟',
-      Eclipse: '매일 애들한테 나눔하는 이클립스 ',
-
-    };
+      sweatshirt: '스웨터 티셔츠이다.',
+      knitvest: '니트조끼이다.',
+      cardigan: '카디건이다.'    };
 
     if (probability >= 75) {
       if (name.innerHTML !== className) {
